@@ -1,0 +1,169 @@
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+}
+
+#top{
+	display: flex;
+	justify-content: flex-end;	
+}
+
+#top a:hover {
+	text-decoration: underline;
+}
+
+#top a {
+	text-decoration: none;
+	color: rgba(0,0,0,0.87);
+	margin-right: 20px; 
+	margin-top: 15px;
+}
+
+#middle {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo {
+	text-align: center;
+}
+
+#searchBarContainer {
+	margin-top: 20px;
+	text-align: center;
+	position: relative;
+}
+
+
+#search, #voice {
+	display: flex;
+	top: 0;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#search {
+	left: 10px;
+}
+
+#voice {
+	right: 10px;
+}
+
+#searchBar {
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #fff;
+	outline: 0;
+	height: 44px;
+	width: 402px;
+	border-radius: 24px;
+	border: 1px solid #dfe1e5;
+}
+
+#searchBar:hover{
+	background-color: #fff;
+	box-shadow: 0 1px 6px rgba(32,33,36,.28);
+	border-color: rgba(223,225,229,0);
+}
+
+#buttons {
+	height: 70px;
+	padding-top: 18px;
+	top: 53px;
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	background-color: #f8f9fa;
+	margin: 11px 4px;
+	height: 36px;
+	padding: 0px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	color: #3c4043;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	border: 1px solid #f8f9fa;
+}
+
+.button:hover {
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#language {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#language a{
+	color: blue;
+}
+
+#footer {
+	line-height: 40px;
+	font-size: 14px
+	margin-left: -27px;
+	background: #f2f2f2;
+	border-top: 1px solid #dadce0;
+	min-width: 400px;
+}
+
+#footer a{
+	color: #70757a;
+}
+
+
+#country, #info {
+	padding-top: 10px;
+	padding-bottom: 10px 
+}
+
+
+#country {
+	margin-left:30px;
+	color: rgba(0,0,0,.54)
+}
+
+#info {
+	border-top: 1px solid #dadce0;
+}
+
+#info a {
+	padding-left: 27px;
+	margin: 0 !important;
+}
+
+#leftInfo {
+	margin-left: 30px;
+	float: left;
+}
+
+#rightInfo {
+	float: right;
+	margin-right: 30px
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

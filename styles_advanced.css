@@ -1,0 +1,29 @@
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+}
+
+
+#top {
+	background-color:  #f1f1f1;
+    font: 13px/27px Arial,sans-serif;
+    height: 60px;
+    width: 100%;
+}
+
+#logo {
+	background-image: url("resource/i1_1967ca6a.png");
+	background-position: 0 -35px;
+	height: 33px;
+	width: 92px;
+    -webkit-background-size: 528px 68px;
+	background-size: 528px 68px;
+
+}
